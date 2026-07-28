@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyInsta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>MyInsta</h1>
+</header>
+
+<div class="stories">
+
+  <div class="story" onclick="openStory('りほ')"></div>
+    <div class="circle"></div>
+    <p>りほ</p>
+  </div>
+
+  <div class="story" onclick="openStory('ゆな')"></div>
+    <div class="circle"></div>
+    <p>ゆな</p>
+  </div>
+
+  <div class="story" onclick="openStory('みお')"></div>
+    <div class="circle"></div>
+    <p>みお</p>
+  </div>
+
+</div>
+
+<div class="post">
+
+📷 投稿がここに表示されます
+
+</div>
+
+<nav>
+
+🏠　🔍　➕　❤️　👤
+
+</nav>
+<div id="storyScreen" class="story-screen">
+
+<h2 id="storyName"></h2>
+
+<p id="storyText"></p>
+
+<button onclick="closeStory()">
+閉じる
+</button>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

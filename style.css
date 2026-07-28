@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#fafafa;
+}
+
+header{
+    background:white;
+    text-align:center;
+    padding:15px;
+    font-size:20px;
+    border-bottom:1px solid #ddd;
+}
+
+.stories{
+    display:flex;
+    gap:20px;
+    padding:15px;
+    overflow-x:auto;
+    background:white;
+}
+
+.story{
+    text-align:center;
+}
+
+.circle{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);
+    margin:auto;
+}
+
+.post{
+    margin:20px;
+    padding:80px;
+    background:white;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+nav{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:white;
+    padding:15px;
+    text-align:center;
+    border-top:1px solid #ddd;
+    font-size:24px;
+}
+.story-screen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.story-screen button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
