@@ -13,23 +13,27 @@ header{
 }
 
 .stories{
-    display:flex;
-    gap:20px;
-    padding:15px;
-    overflow-x:auto;
-    background:white;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 15px;
 }
 
 .story{
-    text-align:center;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .circle{
-    width:70px;
-    height:70px;
-    border-radius:50%;
-    background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);
-    margin:auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af);
+}
+
+.story p{
+    margin-top: 8px;
+    font-size: 14px;
 }
 
 .post{
@@ -66,4 +70,12 @@ nav{
     margin-top: 30px;
     padding: 10px 20px;
     font-size: 16px;
+}
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+
+*{
+    box-sizing:border-box;
 }
